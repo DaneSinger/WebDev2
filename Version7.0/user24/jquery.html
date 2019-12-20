@@ -1,19 +1,14 @@
 <html>
 <head>
-<title>Cool Powers</title>    
+<title>jQuery</title>    
     <link rel="shortcut icon" href="CSS/shazam.ico"/>
-    <link href="CSS/powers-style.css" rel="stylesheet" type="text/css">
+    <link href="CSS/jquery.css" rel="stylesheet" type="text/css">
 </head>
-<h1>Cool Powers I'd Want</h1>
-    <ul>
-    <li>Teleportation</li>
-    <li>Electricity Manipulation</li>
-    <li>Super Strength</li>
-    <li>Super Speed</li>
-    <li>Invulnerability</li>
-    <li>Cybernetic Enhancements</li>
-    </ul>
-
+<body>   
+<a href="http://tutsplus.com">Click Me</a> 
+    
+    
+    
 <dl>
 	<dt>Home</dt>
 	<dd><button class="Home"><a href='index.html'>Home</a></button></dd>
@@ -45,5 +40,13 @@
 					.slideUp(200);
 	});
 })();
+var obj = {
+    doIt: function(e) {
+        e.preventDefault();
+        console.log(this);
+    }
+}
+  $('a').on('click', doSomething);  
     </script>
+    </body>
 </html>
