@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Jan 20, 2020 at 02:42 PM
+-- Generation Time: Jan 21, 2020 at 08:38 AM
 -- Server version: 8.0.17
 -- PHP Version: 7.3.8
 
@@ -40,7 +40,8 @@ CREATE TABLE `employees` (
 --
 
 INSERT INTO `employees` (`id`, `name`, `address`, `salary`) VALUES
-(10, 'The Phantom', 'Teleportation/Portal Conjuration, Ability to Construct Solid Objects from Shadows, Incorporeal Body Transformation', 11);
+(13, 'The Phantom', 'Teleportation/Portal Conjuration, Ability to Construct Solid Objects from Shadows, Incorporeal Body Transformation', 12),
+(17, 'Shockwave', 'Cyborg, Electrical Manipulation, Enhanced Intelligence', 7);
 
 --
 -- Indexes for dumped tables
@@ -60,7 +61,7 @@ ALTER TABLE `employees`
 -- AUTO_INCREMENT for table `employees`
 --
 ALTER TABLE `employees`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
